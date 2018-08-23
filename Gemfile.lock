@@ -1,6 +1,6 @@
 GIT
   remote: https://gitlab.cantierecreativo.net/agid/ruby-agave-client.git
-  revision: 3f5865ce8c4996e7a52c7f90353a210b391df2b8
+  revision: 1e7ecaad08a5c24a35eaf1628a3dfdc04a3fdaa8
   specs:
     agave (0.6.6)
       activesupport (>= 4.2.7)
