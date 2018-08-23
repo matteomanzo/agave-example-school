@@ -1,0 +1,12 @@
+.nvmrc
+.env
+.jekyll-metadata
+npm-debug.log
+node_modules/*
+src/_data
+src/_events
+src/assets/
+src/index.md
+src/about.md
+src/event.md
+public

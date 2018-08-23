@@ -1,0 +1,24 @@
+---
+layout: default
+paginate: true
+---
+
+<div>
+  <p>{{page.title}}</p>
+  <br>
+  {% for event in paginator.events %}
+  <div>
+    <p><a href="{{ event.url }}">{{event.title}}</a></p>
+    <p>{{event.description}}</p>
+  </div> 
+  {% endfor %}
+
+  {% if paginator.next_page_path %}
+    <a href="{{ paginator.next_page_path}}">Next Page</a>
+  {% endif %}
+    
+  {% if paginator.previous_page_path %}
+    <a href="{{ paginator.previous_page_path}}">Previous Page</a>
+  {% endif %}
+    
+</div>
